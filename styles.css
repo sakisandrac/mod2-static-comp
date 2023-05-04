@@ -1,0 +1,51 @@
+
+body {
+  background-color: rgb(234, 234, 234);
+}
+
+header {
+  background-color: rgb(64, 64, 64);
+  height: 100px;
+  margin: 0;
+}
+
+nav {
+  color: white;
+}
+
+.nav-flexbox {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+h1 {
+margin-bottom: 0px;
+}
+
+.icon-flexbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+}
+
+#articleFlexbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  border: 1px solid black;
+  height: 300px;
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width:20px;
+  padding: 8px;
+}
