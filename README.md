@@ -21,4 +21,4 @@ As Mod 2 students in the Turing front end program, our learning goal was to recr
 ## Set Up
 1. Fork and/or clone this repository down by opening the terminal on your local machine.
 
-2. In the terminal, run the command `open index.html` to open file.
+2. In the terminal, run the command `open index.html` to open file. Or click <a href="https://sakisandrac.github.io/mod2-static-comp/">this link</a> to view.
