@@ -25,10 +25,14 @@ nav {
   align-items: flex-end;
   /* border: 2px solid green; */
 }
+label {
+  font-size: 1rem;
+}
 
 h1 {
 padding: 5px;
 margin-bottom: 0;
+margin-left: 10px;
 }
 
 .icon-flexbox {
@@ -48,10 +52,16 @@ margin-bottom: 0;
 
 article {
   display: flex;
+  flex-direction: column;
   border: 1px solid black;
-  height: 350px;
+  height: 430px;
   width: 300px;
   margin-bottom: 10px;
+}
+
+.imgs {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .headshot {
@@ -59,12 +69,57 @@ article {
   position: absolute;
   object-fit: cover;
   width: 300px;
-  max-height: 200px;
+  max-height: 175px;
 }
 
 .arrow {
   transform: translate(20px, 10px);
   height: 70px;
+}
+
+.personal-info {
+  margin-top: 110px;
+  margin-left: 20px;
+}
+
+.name-here {
+  margin-bottom: 2px;
+}
+
+.date {
+  margin-top: 2px;
+  font-size: .8rem;
+  color: rgb(144, 144, 144);
+}
+
+.url {
+  background-color: rgb(218, 218, 218);
+  width: 260px;
+  margin-left: 20px;
+}
+
+.website {
+  font-size: .8rem;
+  margin: 10px;
+}
+
+.small-header {
+  font-size: .8rem;
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+
+.playlist {
+  margin: 2px 0 2px 20px;
+  /* margin-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px; */
+}
+
+.number{
+  font-size: 2.75rem;
+  color: purple;
+  margin: 10px 0 0 20px;
 }
 
 .icon {
