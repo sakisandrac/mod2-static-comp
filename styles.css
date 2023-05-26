@@ -2,6 +2,7 @@
 body {
   background-color: rgb(234, 234, 234);
   font-family: roboto;
+  margin: 0;
 }
 
 header {
@@ -27,6 +28,7 @@ nav {
 
 h1 {
 padding: 5px;
+margin-bottom: 0;
 }
 
 .icon-flexbox {
@@ -47,9 +49,20 @@ padding: 5px;
 article {
   display: flex;
   border: 1px solid black;
-  height: 300px;
-  width: 220px;
+  height: 350px;
+  width: 300px;
   margin-bottom: 10px;
+}
+
+.headshot {
+  object-fit: cover;
+  width: 300px;
+  max-height: 200px;
+}
+
+.arrow {
+  height: 30px;
+
 }
 
 .icon {
