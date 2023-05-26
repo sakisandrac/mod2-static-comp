@@ -54,9 +54,11 @@ article {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-  height: 430px;
+  height: 420px;
   width: 300px;
+  background-color: white;
   margin-bottom: 10px;
+  z-index: -2;
 }
 
 .imgs {
@@ -111,9 +113,6 @@ article {
 
 .playlist {
   margin: 2px 0 2px 20px;
-  /* margin-left: 20px;
-  margin-top: 2px;
-  margin-bottom: 2px; */
 }
 
 .number{
