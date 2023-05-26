@@ -55,14 +55,16 @@ article {
 }
 
 .headshot {
+  z-index: -1;
+  position: absolute;
   object-fit: cover;
   width: 300px;
   max-height: 200px;
 }
 
 .arrow {
-  height: 30px;
-
+  transform: translate(20px, 10px);
+  height: 70px;
 }
 
 .icon {
